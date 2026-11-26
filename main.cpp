@@ -30,7 +30,7 @@ int main()
     Circuit circuit(circuitU, circuitR);
     Battery battery(batteryU, batteryR, batteryC);
 
-    PrintBox("<------- INHERITANCE: VOLTAGE SOURCES (VARIANT 10) ------->");
+    PrintBox("<------- INHERITANCE: VOLTAGE SOURCES ------->");
 
     PrintBox("Testing base class VoltageSource");
     PrintTable({"Object", "Voltage"}, {{"source", Num(source.GetVoltage()) + " V"}});
