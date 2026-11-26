@@ -1,0 +1,5 @@
+source 12
+circuit 12 6
+battery 3.7 0.05 2.5
+load 0.5
+newvoltage 24
